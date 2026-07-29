@@ -1,5 +1,8 @@
 
 Source: https://cs50.harvard.edu/x/psets/1/credit/
+Hint: https://en.wikipedia.org/wiki/Luhn_algorithm
+*NOTE: NO casting to STRINGS or LISTS ALLOWED. ONLY USE NUMBERS AND MATH.*
+Ignore notes about C, use Python.
 
 # Credit
 
