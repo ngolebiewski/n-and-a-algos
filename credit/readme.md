@@ -4,6 +4,8 @@ Hint: https://en.wikipedia.org/wiki/Luhn_algorithm
 *NOTE: NO casting to STRINGS or LISTS ALLOWED. ONLY USE NUMBERS AND MATH.*
 Ignore notes about C, use Python.
 
+![Luhns checksum device from the patent office](US_2950048_A.png)
+image source: https://worldwide.espacenet.com/patent/search/family/003449488/publication/US2950048A?q=pn%3DUS2950048A
 # Credit
 
 ## Problem to Solve
