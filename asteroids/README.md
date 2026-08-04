@@ -1,14 +1,3 @@
-# N + A Data Structures and Algorithms Mock interviews
-
-- Questions will have sources noted
-- Add in tests
-- TBD
-
-## Questions Covered
-* 
-
-## To be asked
-* Harvard CS50 Credit Card checksum (switched from C to Python here): https://github.com/ngolebiewski/n-and-a-algos/tree/main/credit
 * Asteroids Leetcode 735 (Stack), Premium   https://leetcode.com/problems/asteroid-collision/description/
 
 ```python 
