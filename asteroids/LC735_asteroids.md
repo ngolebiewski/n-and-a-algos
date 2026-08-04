@@ -1,5 +1,10 @@
 * Asteroids Leetcode 735 (Stack), Premium   https://leetcode.com/problems/asteroid-collision/description/
 
+
+### A's solution:
+*placeholder*
+
+### Nick's solution
 ```python 
 from collections import deque
 
@@ -32,8 +37,10 @@ class Solution:
 
         # can no longer explode when all signs are the same 
         # OR all - on left and + on right
+```
+### OR chat GPT solution
 
-        # OR chat GPT solution
+```python
         from typing import List
 
 class Solution:

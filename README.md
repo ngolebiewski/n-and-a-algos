@@ -1,67 +1,16 @@
 # N + A Data Structures and Algorithms Mock interviews
 
-- Questions will have sources noted
-- Add in tests
-- TBD
+* Track questions asked in mock technical interviews with solutions. 
+* A place to keep a curated pool of unasked questions that have been reviewed/solved in advance.
 
-## Questions Covered
-* 
+## Questions Answered
+### N
+* 8-4-26 Leet Code 1823. Find the Winner of the Circular Game https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/
 
-## To be asked
+### A
+* 8-4-26 Asteroids Leetcode 735 (Stack), Premium   https://leetcode.com/problems/asteroid-collision/description/
+
+## Pool of Unasked Questions
+### N
 * Harvard CS50 Credit Card checksum (switched from C to Python here): https://github.com/ngolebiewski/n-and-a-algos/tree/main/credit
-* Asteroids Leetcode 735 (Stack), Premium   https://leetcode.com/problems/asteroid-collision/description/
-
-```python 
-from collections import deque
-
-class Solution:
-    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
-        astro_turf = deque(asteroids)
-        stack = []
-
-        while astro_turf:
-            cur = astro_turf.popleft()
-            stack.append(cur)
-            while len(stack) > 1 and stack[-2] > 0 and stack[-1] < 0:
-                # EXPLODE!
-                last = stack.pop()
-                penultimate = stack.pop()
-                if abs(last) > abs(penultimate):
-                    stack.append(last)
-                elif abs(last) == abs(penultimate):
-                    continue
-                else:
-                    stack.append(penultimate)
-                    
-        return stack
-
-
-
-
-        # lets add asteroids to the stack. when we have a sign mismatch lets
-        # do some explosion math/logic. 
-
-        # can no longer explode when all signs are the same 
-        # OR all - on left and + on right
-
-        # OR chat GPT solution
-        from typing import List
-
-class Solution:
-    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
-        stack = []
-
-        for asteroid in asteroids:
-            while stack and stack[-1] > 0 and asteroid < 0:
-                if stack[-1] < -asteroid:
-                    stack.pop()
-                elif stack[-1] == -asteroid:
-                    stack.pop()
-                    break
-                else:
-                    break
-            else:
-                stack.append(asteroid)
-
-        return stack
-```
+### A
