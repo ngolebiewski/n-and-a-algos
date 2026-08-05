@@ -2,7 +2,37 @@
 
 
 ### A's solution:
-*placeholder*
+```python
+class Solution:
+    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
+        s = asteroids[::-1]
+        pos = []
+        res = []
+
+        while len(s) > 0:
+            curr = s.pop()
+            if curr > 0:
+                pos.append(curr)
+            else:
+                if len(pos) > 0:
+                    curr_pos = pos.pop()
+                    # Continually crush smaller asteroids
+                    while abs(curr) > curr_pos and len(pos) > 0:
+                        curr_pos = pos.pop()
+                    # If of the same value, explode both (meaning don't add either anywhere)
+                    if abs(curr) == curr_pos:
+                        continue
+                    # If a larger pos asteroid, put it back on the pos stack
+                    if abs(curr) < curr_pos:
+                        pos.append(curr_pos)
+                    # No more pos asteroids, so this neg one will continue to move left with no collisions
+                    if len(pos) == 0:
+                        res.append(curr)
+                else:
+                    res.append(curr)
+        # Add all pos asteroids to res
+        return res + pos
+```
 
 ### Nick's solution
 ```python 
