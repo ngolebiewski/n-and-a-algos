@@ -15,6 +15,7 @@
 ## Pool of Unasked Questions
 ### N
 * Harvard CS50 Credit Card checksum (switched from C to Python here): https://github.com/ngolebiewski/n-and-a-algos/tree/main/credit
+* Longest Consecutive Sequence: https://neetcode.io/problems/longest-consecutive-sequence/question?list=neetcode150
 * *Warmups* 
     - sWAP cASE: https://www.hackerrank.com/challenges/swap-case/problem?isFullScreen=true
 
