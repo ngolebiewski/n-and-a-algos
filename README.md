@@ -7,7 +7,7 @@
 ### N
 * 8-4-26 Leet Code 1823. Find the Winner of the Circular Game https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/
 * 8-5-26 Koko Eating Bananas https://leetcode.com/problems/koko-eating-bananas/
-
+* 8-20-26 Use a Set! https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/description/
 ### A
 * 8-4-26 Asteroids Leetcode 735 (Stack), Premium   https://leetcode.com/problems/asteroid-collision/description/
 * 8-5-26 https://leetcode.com/problems/group-anagrams/ and try to do as number, not as string: https://leetcode.com/problems/palindrome-number/description/
