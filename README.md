@@ -21,5 +21,6 @@
 ## Pool of Unasked Questions
 ### N
 * Harvard CS50 Credit Card checksum (switched from C to Python here): https://github.com/ngolebiewski/n-and-a-algos/tree/main/credit
-
+* https://leetcode.com/problems/number-of-recent-calls/description/
+(LRU lite)
 ### A
